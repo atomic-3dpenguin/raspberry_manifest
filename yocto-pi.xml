@@ -3,7 +3,7 @@
 
   <remote name="yocto"       fetch="https://git.yoctoproject.org"/>
   <remote name="oe"          fetch="https://github.com/openembedded"/>
-  <remote name="pi"          fetch="https://github.com/atomic-3dpenguin/meta-pi.git"/>
+  <remote name="pi"          fetch="https://github.com/atomic-3dpenguin"/>
 
   <project name="poky" path="sources/poky" remote="yocto" revision="0a98281d37b0bd8dc1548c390216cb3978e36e0e" upstream="mickledore"/>
 
