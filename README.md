@@ -10,7 +10,7 @@ repo sync
 
 # Source environment
 ```
-source ../sources/pokey/oe-init-build-env build
+source sources/pokey/oe-init-build-env build
 ```
 
 # Add Layers
