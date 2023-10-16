@@ -3,12 +3,13 @@
 
   <remote name="yocto"       fetch="https://git.yoctoproject.org"/>
   <remote name="oe"          fetch="https://github.com/openembedded"/>
+  <remote name="pi"          fetch="https://github.com/atomic-3dpenguin/meta-pi.git"/>
 
-  <project name="poky" path="sources/poky" remote="yocto" revision="0a98281d37b0bd8dc1548c390216cb3978e36e0e" upstream="mickledore">
-  <linkfile dest="setup-environment" src="poky/oe-init-build-env"/>
-  </project>
+  <project name="poky" path="sources/poky" remote="yocto" revision="0a98281d37b0bd8dc1548c390216cb3978e36e0e" upstream="mickledore"/>
 
   <project name="meta-raspberrypi" path="sources/meta-raspberrypi" remote="yocto" revision="aa0aed9a08d6578a18c4eeb3b44ed8354a57ebee" upstream="mickledore"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="75cf318cef3b4ee81fad2782cf063ecd69ba8842" upstream="mickledore"/>
+
+  <project name="meta-pi" path="sources/meta-pi" remote="pi" revision="c9fbf8108519a9142a232dfbbbede65def18c041" upstream="mickledore"/>
 
 </manifest>
