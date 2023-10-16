@@ -1,6 +1,11 @@
 # raspberry_manifest
 Manifest file for yocto build of raspberry pi 3b
 
+# Create Directory
+```
+mkdir ~/pi-yocto && cd ~/pi-yocto
+```
+
 # Initialize Repo
 ```
 repo init -u https://github.com/atomic-3dpenguin/raspberry_manifest.git -b mickledore -m yocto-pi.xml
